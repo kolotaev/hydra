@@ -3,9 +3,9 @@ import:
 - package: github.com/sirupsen/logrus
   version: master
 - package: github.com/Sirupsen/logrus
+  version: master
   repo: https://github.com/sirupsen/logrus.git
   vcs: git
-  version: master
 - package: github.com/dgrijalva/jwt-go
   version: 3.0.0
 - package: github.com/go-sql-driver/mysql
@@ -69,6 +69,10 @@ import:
   - clientcredentials
 - package: gopkg.in/yaml.v2
 - package: github.com/mohae/deepcopy
+- package: github.com/golang/mock
+  version: ^1.0.0
+  subpackages:
+  - gomock
 testImport:
 - package: github.com/bmizerany/assert
 - package: github.com/ory/dockertest
